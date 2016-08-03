@@ -12,8 +12,19 @@ img{
 	border-style: solid;
 }
 
+img:hover{
+	transform: rotate(7deg);
+}
+
 p {
 	text-align: center;
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+
+p:hover{
+	background: #2db34a;
 }
 
 .nama {
@@ -26,4 +37,5 @@ ul {
 
 h1 , h2{
 	text-align: center;
+	
 }
