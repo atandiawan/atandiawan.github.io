@@ -43,3 +43,25 @@ h1 , h2{
 .wrapper {
 	text-align: center;
 }
+
+.gambar {
+	display: inline-block;
+	width:300px;
+	float:left;
+}
+
+.tulisan {
+	display: inline-block;
+	width: 900px;
+	float: right;
+}
+
+.baris{
+	display: block;
+	height: auto;
+	clear: both;
+}
+
+.banner {
+	text-align:center;
+}
