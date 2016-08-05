@@ -74,3 +74,7 @@ fieldset{
 .wireframe{
 	width: 800px;
 }
+
+.pertanyaan{
+	font-weight: bold;
+}
