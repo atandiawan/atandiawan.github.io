@@ -60,6 +60,7 @@ h1 , h2{
 	display: block;
 	height: auto;
 	clear: both;
+	height: 40px;
 }
 
 .banner {
@@ -78,3 +79,18 @@ fieldset{
 .pertanyaan{
 	font-weight: bold;
 }
+
+.leftpart{
+	display: inline-block;
+	float: left;
+	width: 47.5%;
+	border-style:solid;
+}
+
+.rightpart{
+	display: inline-block;
+	float: right;
+	width: 47.5%;
+	border-style: solid;
+}
+
