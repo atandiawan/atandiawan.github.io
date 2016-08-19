@@ -10,5 +10,5 @@ var muncul = function (){
 
 var gantibackground = function(){
 	console.log(background);
-	background = "yellow";
+	document.body.style.backgroundColor = "yellow";
 }
