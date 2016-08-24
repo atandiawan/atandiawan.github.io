@@ -7,3 +7,12 @@ var muncul = function (){
 var gantibackground = function(){
 	document.body.style.backgroundColor = "yellow";
 }
+
+$(document).ready(function(){
+	$("img").click(function(){
+		$(this).fadeOut();
+	});
+});
+
+var gambar = $("img");
+console.log(gambar);
